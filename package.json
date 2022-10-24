@@ -1,0 +1,24 @@
+{
+  "name": "kafka-app-teuho",
+  "version": "1.0.0",
+  "description": "\"# kafka-app-teuho\"",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoonaTeuho/kafka-app-teuho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoonaTeuho/kafka-app-teuho/issues"
+  },
+  "homepage": "https://github.com/JoonaTeuho/kafka-app-teuho#readme",
+  "dependencies": {
+    "avsc": "^5.7.6",
+    "node-rdkafka": "^2.14.0"
+  }
+}
