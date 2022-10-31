@@ -19,6 +19,7 @@
   "homepage": "https://github.com/JoonaTeuho/kafka-app-teuho#readme",
   "dependencies": {
     "avsc": "^5.7.6",
-    "node-rdkafka": "^2.14.0"
+    "node-rdkafka": "^2.14.0",
+    "uuid": "^9.0.0"
   }
 }
